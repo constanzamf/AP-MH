@@ -89,3 +89,28 @@ table {
     list-style-position: inside;
     list-style-type:circle;
 }
+
+.formulario {
+    width: 1000px;
+    display: flex;
+}
+
+.contenedor_columnas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.columna {
+    display: flex;
+    flex-direction: row;
+}
+
+.columna_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.columna_3 {
+    display: flex;
+    flex-direction: column;
+}
