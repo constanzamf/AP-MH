@@ -1,0 +1,43 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Indie Flower', cursive;
+    text-align: justify;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    position: relative;
+    
+}
+
+header {
+    background-image: url(./assest/img/design1_image1.jpg);
+    height: 200px;
+}
+
+.logo {
+    width: 75px;
+    background-color: black;
+    position: relative;
+    top: 105px;
+    left: 1200px;
+}
+
+.content{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.todo {
+    display: flex;
+}
