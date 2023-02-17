@@ -15,14 +15,34 @@ h2 {
     text-align: center;
 }
 
+a {
+    color: blue;
+}
+
+p, dd {
+    padding-inline-end: 50px;
+}
+
+span {
+    font-weight: bold;
+}
+
 nav {
-    position: relative;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 200px;
 }
 
 header {
     background-image: url(./assest/img/design1_image1.jpg);
     height: 200px;
+}
+
+table {
+    width: 500px;
+    height: 300px;
 }
 
 .logo {
@@ -33,11 +53,39 @@ header {
     left: 1200px;
 }
 
-.content{
-    padding-left: 100px;
-    padding-right: 50px;
+.general {
+    display: flex;
+} 
+
+.barra {
+    width: 150px;
+    height: 200px;
 }
 
 .todo {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.texto {
     display: flex;
+    justify-content: space-between;
+}
+
+.lista_table {
+    list-style-type: none;
+}
+
+.lista_numerada {
+    list-style-position: inside;
+}
+
+.lista_alfabetica {
+    list-style-position: inside;
+    list-style-type:lower-latin;
+}
+
+.lista_circle {
+    list-style-position: inside;
+    list-style-type:circle;
 }
